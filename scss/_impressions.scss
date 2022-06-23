@@ -1,0 +1,57 @@
+.impressions{
+
+    .row{
+        justify-content: space-between;
+    }
+
+
+    
+
+    .col-md-5{
+        width: 381px;
+        height: 296px;
+        align-items: flex-start;
+        margin-top: 50px;
+        padding: 0px;
+        gap: 35px;
+        width: 381px;
+        height: 296px;
+        
+        &::before{
+            content: "";
+            display: block;
+            width: 94px;
+            height: 7px;
+            margin: 20px 0;
+            background-color: $mainColor2;
+        }
+
+        h2{
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+            letter-spacing: 0.2px;
+            color: #252B42;
+        }
+
+        p{
+            width: 351px;
+            height: 60px;   
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            color: #737373;
+
+        }
+
+        a{
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            color: $mainColor;
+        }
+    }
+}
